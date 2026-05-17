@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width:auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.student-card {
+  background-color: white;
+  width: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgb(117, 117, 117);
+}
+
+.student-card h2 {
+  color: #007bff;
+}
+
+.student-card p {
+  font-size: 18px;
+  color: black;
+}
+.heading{
+  color: black;
+}
+.greating{
+  color:black;
+}
+.hello {
+  color: black;
+}

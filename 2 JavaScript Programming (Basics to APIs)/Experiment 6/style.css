@@ -1,0 +1,35 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+h1 {
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#para {
+  margin-top: 20px;
+  font-size: 18px;
+}

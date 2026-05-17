@@ -1,0 +1,105 @@
+.app {
+  font-family: Arial;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ff6b00;
+  padding: 10px 20px;
+  color: white;
+}
+
+.logo {
+  width: 90px;
+}
+
+.cart {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart img {
+  width: 35px;
+}
+
+.cart span {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 3px 7px;
+  font-size: 12px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+/* CARD */
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.veg {
+  color: green;
+  font-weight: bold;
+}
+
+/* BUTTONS */
+button {
+  background: #ff6b00;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-top: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* QTY BOX */
+.qtyBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* CART PAGE */
+.cartPage {
+  padding: 20px;
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
